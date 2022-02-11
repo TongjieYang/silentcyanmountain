@@ -1,0 +1,24 @@
+{
+  "name": "silentcyanmountain-blog",
+  "version": "1.0.0",
+  "description": "silentcyanmountain's blog. It contains life and learning aticles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "silentcyanmountain",
+    "vitepress",
+    "个人博客",
+    "前端开发",
+    "全栈开发"
+  ],
+  "author": "silentcyanmountain",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^0.21.6"
+  }
+}
