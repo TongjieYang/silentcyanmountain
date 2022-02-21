@@ -35,22 +35,40 @@ module.exports = {
         {
           text: "生活相关",
           children: [
-            { text: "前端首页", link: "/life/index.md" },
-            { text: "typescript", link: "/frontend/typescript" },
-            { text: "设计模式", link: "/frontend/patterdesign" },
-            { text: "最佳实践", link: "/frontend/best-practices" },
-            { text: "原生学习与总结", link: "/frontend/summary" },
+            { text: "生活首页", link: "/life/index.md" },
+            { text: "装修", link: "/life/decoration" },
+            { text: "地摊市场调研", link: "/life/stall" },
+          ],
+        },
+      ],
+      "/amusement": [
+        {
+          text: "娱乐相关",
+          children: [
+            { text: "娱乐首页", link: "/amusement/index.md" },
+            { text: "羽毛球", link: "/amusement/badminton.md" },
+          ],
+        },
+      ],
+      "/reading": [
+        {
+          text: "阅读相关",
+          children: [
+            { text: "阅读首页", link: "/reading/index.md" },
+            { text: "沟通相关", link: "/reading/communication.md" },
           ],
         },
       ],
     },
     nav: [
       // 顶部右侧导航栏
-      { text: "阅读", link: "/reading", activeMatch: "^/$|^/reading/" },
+      { text: "阅读", link: "/reading/index", activeMatch: "^/$|^/reading/" },
       // 顶部右侧导航栏
-      { text: "生活", link: "/life", activeMatch: "^/$|^/life/" },
+      { text: "生活", link: "/life/index", activeMatch: "^/$|^/life/" },
       // 顶部右侧导航栏
-      { text: "前端相关", link: "/frontend", activeMatch: "^/$|^/frontend/" },
+      { text: "娱乐", link: "/amusement/index", activeMatch: "^/$|^/amusement/" },
+      // 顶部右侧导航栏
+      { text: "前端相关", link: "/frontend/index", activeMatch: "^/$|^/frontend/" },
       
     ],
   },
